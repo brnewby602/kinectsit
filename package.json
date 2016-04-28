@@ -1,0 +1,19 @@
+{
+  "name": "kinectsit",
+  "version": "0.0.1",
+  "description": "kinectsit application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinectsit/kinectsit.git"
+  },
+  "author": "Krista Moroder, Buck Perley, Bryan Newby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kinectsit/kinectsit/issues"
+  },
+  "homepage": "https://github.com/Kinectsit/kinectsit#readme"
+}
