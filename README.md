@@ -1,14 +1,14 @@
 # kinectsit
 
-# Project Name
-
-> Pithy project description
+> Bringing your 1.0 stuff to the 2.0 world....kinectsit.
+> Bringing your things into the Internet of Things.
+> 
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: Bucko Perley
+  - __Scrum Master__: Bryan Newby
+  - __Development Team Members__: Krista Moroder, Bucko Perley, Bryan Newby
 
 ## Table of Contents
 
