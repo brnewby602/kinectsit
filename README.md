@@ -26,11 +26,28 @@
 
 ## Requirements
 
-- Node 0.10.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
+> Tech Stack
+
+- Server
+-- Node 
+-- Express
+-- Postgres
+-- Sequalize
+-- Little Bits (hardware integration) & Little Bits API
+- Client
+-- React 
+-- Redux 
+-- Foundation 
+-- SASS
+-- Webpack
+
+> Continuous Integration and Testing
+-- Jest (Mocha/Chai/JSDON) ?
+-- TravisCI
+
+> Deployment
+- AWS EC2 
+- Docker (will remove if time constraints require it)
 
 ## Development
 
