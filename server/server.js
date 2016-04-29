@@ -8,10 +8,10 @@ var logger = require('./config/logger.js');
 /*
   Set up routers for the different APIs
 */
-// var someRouter = require(./routers/someRouter.js)
+// var userRouter = require(./routers/userRouter.js)
 
 // configuration variables for server port and mongodb URI
-var port = process.env.PORT || 4443;
+var port = process.env.PORT || 3000;
 
 app.use(require('morgan')('combined', { 'stream': logger.stream }));
 
@@ -24,7 +24,7 @@ app.use(express.static(__dirname + '/../client'));
 /*
    Middleware to configure routes for each api
 */
-//app.use('/api/some', someRouter);
+//app.use('/api/users', userRouter);
 
 app.listen(port, function() {
    console.log('Kinectsit API server listening on port: ', port);

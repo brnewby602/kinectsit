@@ -1,0 +1,3 @@
+/*
+  sequelize for the user model
+*/
