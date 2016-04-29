@@ -26,24 +26,24 @@
 
 ## Requirements
 
-> Tech Stack
+### Tech Stack
 
-- Server
--- Node 
--- Express
--- Postgres
--- Sequalize
--- Little Bits (hardware integration) & Little Bits API
-- Client
--- React 
--- Redux 
--- Foundation 
--- SASS
--- Webpack
+#### Server
+- Node 
+- Express
+- Postgres
+- Sequalize
+- Little Bits (hardware integration) & Little Bits API
+#### Client
+- React 
+- Redux 
+- Foundation 
+- SASS
+- Webpack
 
-> Continuous Integration and Testing
--- Jest (Mocha/Chai/JSDON) ?
--- TravisCI
+#### Continuous Integration and Testing
+- Jest (Mocha/Chai/JSDON) ?
+- TravisCI
 
 > Deployment
 - AWS EC2 
