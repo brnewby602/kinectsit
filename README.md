@@ -44,6 +44,7 @@
 
 #### Continuous Integration and Testing
 - Jest (Mocha/Chai/JSDON) ?
+- Frisby
 - TravisCI
 
 #### Deployment
