@@ -32,7 +32,7 @@
 - Node 
 - Express
 - Postgres
-- Sequalize
+- Sequelize
 - Little Bits (hardware integration) & Little Bits API
 
 #### Client
