@@ -2,7 +2,7 @@
   "name": "kinectsit",
   "version": "0.0.1",
   "description": "kinectsit application ",
-  "main": "index.js",
+  "main": "client/index.js",
   "scripts": {
     "test": "jasmine-node test/server && jest",
     "start": "webpack-dev-server"
