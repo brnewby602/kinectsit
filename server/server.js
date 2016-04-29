@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Serve static files
-app.use(express.static(__dirname + '/index.html'));
+app.use(express.static(__dirname + '/../client'));
 
 /*
    Middleware to configure routes for each api
