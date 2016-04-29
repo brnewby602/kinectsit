@@ -1,6 +1,7 @@
-var POI = require('../models/userModel.js');
-var logger = require('../config/logger.js');
+const User = require('../models/userModel.js');
+const logger = require('../config/logger.js');
 
-var signin = function() {
+exports.signin = function signin() {
   logger.info('Log a message');
-}
+  User.test();
+};
