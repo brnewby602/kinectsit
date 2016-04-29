@@ -34,6 +34,7 @@
 - Postgres
 - Sequalize
 - Little Bits (hardware integration) & Little Bits API
+
 #### Client
 - React 
 - Redux 
@@ -45,7 +46,7 @@
 - Jest (Mocha/Chai/JSDON) ?
 - TravisCI
 
-> Deployment
+#### Deployment
 - AWS EC2 
 - Docker (will remove if time constraints require it)
 
