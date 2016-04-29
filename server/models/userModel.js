@@ -1,3 +1,5 @@
+var Sequelize = require('sequelize');
+
 /*
-  sequelize for the user model
+  Sequelize for the user model
 */
