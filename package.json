@@ -4,7 +4,7 @@
   "description": "kinectsit application ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node test/server"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,8 @@
     "eslint-plugin-import": "^1.6.1",
     "eslint-plugin-jsx-a11y": "^1.0.4",
     "eslint-plugin-react": "^5.0.1",
+    "frisby": "^0.8.5",
+    "jasmine-node": "^1.14.5",
     "webpack": "^1.13.0"
   }
 }
