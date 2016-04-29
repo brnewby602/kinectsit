@@ -5,8 +5,6 @@ var fs = require('fs');
 var logDir = __dirname + '/../logs';
 var env = process.env.NODE_ENV || 'development';
 
-console.log('dirname: ', __dirname);
-
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
 }
