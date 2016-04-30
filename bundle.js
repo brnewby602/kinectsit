@@ -46,6 +46,11 @@
 
 	(function webpackMissingModule() { throw new Error("Cannot find module \"./client/index.js\""); }());
 
+<<<<<<< 119c65e4d154778daedc6c4087a8f64f2a4b00fc:bundle.js
+=======
+	document.write('Webpack for the win!');
+
+>>>>>>> setup pre-loader in webpack to run eslinter:client/build/bundle.js
 
 /***/ }
 /******/ ]);
