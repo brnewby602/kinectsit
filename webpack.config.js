@@ -7,7 +7,6 @@ module.exports = {
   entry: './client/index.js',
   output: {
     filename: 'bundle.js',
-    path: __dirname.concat('/client/build'),
     publicPath: '/client/',
   },
   watch: true,
