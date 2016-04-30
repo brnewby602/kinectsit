@@ -7,6 +7,7 @@ module.exports = {
   entry: './client/index.js',
   output: {
     filename: 'bundle.js',
+    path: __dirname.concat('/client/build'),
     publicPath: '/client/',
   },
   watch: true,
@@ -38,7 +39,5 @@ module.exports = {
   ],
   resolve: {
     extensions: ['', '.js', '.es6'],
-    path: __dirname.concat('/client/build'),
-    publicPath: '/client/',
   },
 };
