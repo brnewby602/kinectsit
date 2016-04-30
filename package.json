@@ -4,7 +4,7 @@
   "description": "kinectsit application ",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-node test/server"
+    "test": "jasmine-node test/server && jest"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "eslint-plugin-react": "^5.0.1",
     "frisby": "^0.8.5",
     "jasmine-node": "^1.14.5",
+    "jest-cli": "*",
     "webpack": "^1.13.0"
   }
 }
