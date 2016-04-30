@@ -38,7 +38,10 @@ module.exports = {
   ],
   resolve: {
     extensions: ['', '.js', '.es6'],
+    path: __dirname.concat('/client/build'),
+    publicPath: '/client/',
   },
+  watch: true,
   module: {
     preLoaders: [
       {
@@ -54,8 +57,17 @@ module.exports = {
           presets: ['react', 'es2015'],
         },
       },
+      {
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader'),
+      },
     ],
   },
+  plugins: [
+    new ExtractTextPlugin('styles.css', {
+      allChunks: true,
+    }),
+  ],
   resolve: {
     extensions: ['', '.js', '.es6'],
   },
