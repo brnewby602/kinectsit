@@ -2,5 +2,8 @@
 logs
 *.log
 
+# To compile with webpack
+/client/build
+
 # Dependency directories
 node_modules
